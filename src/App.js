@@ -2,7 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Index() {
-  return <h2>Home</h2>;
+ return (
+     <div className="max-w-sm w-full lg:max-w-full lg:flex">
+       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+         Button
+       </button>
+     </div>
+ )
 }
 
 function About() {
@@ -16,7 +22,7 @@ function Users() {
 function App() {
   return (
       <Router>
-        <div>
+        <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t">
           <nav>
             <ul>
               <li>
