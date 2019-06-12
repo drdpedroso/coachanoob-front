@@ -1,12 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Button from './components/Button'
 
 function Index() {
  return (
      <div className="max-w-sm w-full lg:max-w-full lg:flex">
-       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-         Button
-       </button>
+         <Button onClick={(e) => console.log(e)}>eeee</Button>
      </div>
  )
 }
