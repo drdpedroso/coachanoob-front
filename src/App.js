@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 import Button from './components/Button'
 import {ContextProvider} from "./state/state";
 import 'semantic-ui-css/semantic.min.css'
+import LoginForm from "./components/LoginForm"
 
 function Index() {
     const {filters, setFilters} = useContext(FiltersContext);
@@ -11,6 +12,7 @@ function Index() {
         <div className="max-w-sm w-full lg:max-w-full lg:flex">
             <pre>{JSON.stringify(filters)}</pre>
             <Button onClick={(e) => setFilters({leke: 123})}>eeee</Button>
+            <LoginForm onSubmit={(form) => console.log(form)}/>
         </div>
     )
 }

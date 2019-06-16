@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm renders correctly 1`] = `
+<form
+  className="ui form"
+  onSubmit={[Function]}
+>
+  <div
+    className="field"
+  >
+    <label>
+      E-mail
+    </label>
+    <input
+      data-testid="email"
+      onChange={[Function]}
+      placeholder="E-mail"
+      type="email"
+    />
+  </div>
+  <div
+    className="field"
+  >
+    <label>
+      Senha
+    </label>
+    <input
+      data-testid="password"
+      onChange={[Function]}
+      placeholder="Senha"
+      type="password"
+    />
+  </div>
+  <button
+    className="ui fluid disabled button"
+    data-testid="submit"
+    disabled={true}
+    onClick={[Function]}
+    tabIndex={-1}
+    type="submit"
+  >
+    Entrar
+  </button>
+</form>
+`;
