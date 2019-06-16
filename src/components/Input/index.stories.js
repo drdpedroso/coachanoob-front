@@ -2,7 +2,7 @@ import React from 'react';
 import {storiesOf} from '@storybook/react';
 
 import Input from './';
-import {Icon, Segment} from "semantic-ui-react";
+import {Icon} from "semantic-ui-react";
 
 storiesOf('Input', module)
     .add('with placeholder', () => (
