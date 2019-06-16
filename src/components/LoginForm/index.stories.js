@@ -8,4 +8,7 @@ storiesOf('LoginForm', module)
     .add('with default', () => (
         <LoginForm onSubmit={(val) => action(val)} />
     ))
+    .add('with error', () => (
+        <LoginForm onSubmit={(val) => action(val)} error={{content: 'Error content message', header: 'Something went worng'}}/>
+    ))
 

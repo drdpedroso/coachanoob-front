@@ -33,7 +33,7 @@ describe('LoginForm', () => {
             }
         )
     })
-    
+
     it('should have submit button disabled if no form is filled', () => {
         const onSubmit = jest.fn()
         const component = render(<LoginForm onSubmit={onSubmit} />)
@@ -51,6 +51,15 @@ describe('LoginForm', () => {
         const submitButton = component.getByTestId('submit')
         fireEvent.click(submitButton)
         expect(onSubmit).not.toBeCalled()
+    })
+
+    it('should show error message when error object is passed', () => {
+        const error = {content: 'Error content message', header: 'Something went worng'}
+        const onSubmit = jest.fn()
+        const component = render(<LoginForm onSubmit={onSubmit} error={error}/>)
+        const errorMessage = component.getByTestId('error-message')
+        expect(onSubmit).not.toBeCalled()
+        expect(errorMessage).toBeDefined()
     })
 
 })

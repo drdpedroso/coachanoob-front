@@ -5,6 +5,7 @@ import {Form, Message} from 'semantic-ui-react'
 
 const LoginForm = (props) => {
     const [form, setForm] = useState({})
+    const [error, setError] = useState(props.error || {});
 
     const onChangeInputValue = (e, key) => {
         const { value } = e.target
@@ -15,23 +16,29 @@ const LoginForm = (props) => {
     }
 
     const onSubmit = () => {
+        if (form.password !== form.repeatPassword) {
+            setError({
+                header: 'Algo deu errado',
+                content: 'As senhas precisam sem iguais'
+            })
+            return null
+        }
         return typeof props.onSubmit === 'function' ? props.onSubmit(form) : null
     }
 
     const shouldDisableButton = () => {
-        return !(form.email && form.password)
+        return !(form.repeatPassword && form.password)
     }
 
-    const { error } = props
     return (
         <Form error={!!error}>
             <Form.Field>
-                <label>E-mail</label>
-                <input data-testid="email" placeholder='E-mail' type="email" onChange={(e) => onChangeInputValue(e, 'email')}/>
-            </Form.Field>
-            <Form.Field>
                 <label>Senha</label>
                 <input data-testid="password" placeholder='Senha' type="password" onChange={(e) => onChangeInputValue(e, 'password')}/>
+            </Form.Field>
+            <Form.Field>
+                <label>Repetir Senha</label>
+                <input data-testid="repeatPassword" placeholder='Repetir Senha' type="password" onChange={(e) => onChangeInputValue(e, 'repeatPassword')}/>
             </Form.Field>
             {error && <Message
                 data-testid="error-message"
