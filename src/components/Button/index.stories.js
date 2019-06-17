@@ -21,7 +21,7 @@ storiesOf('Button', module)
     .add('with text primary attached bottom', () => (
         <div>
             <Segment attached>
-                <img src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
+                <img src='https://react.semantic-ui.com/images/wireframe/paragraph.png'/>
             </Segment>
             <Button attached='bottom'>Bottom</Button>
         </div>
