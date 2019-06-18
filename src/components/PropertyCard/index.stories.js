@@ -13,7 +13,7 @@ storiesOf('PropertyCard', module)
 
     .add('with text Carousel', () => (
         <div style={{padding: 10}}>
-            <PropertyCard item={Listing}/>
+            <PropertyCard item={Listing} isCarousel arrows/>
         </div>
     ))
 
