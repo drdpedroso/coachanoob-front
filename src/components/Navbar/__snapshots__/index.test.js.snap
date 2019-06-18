@@ -1,3 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `null`;
+exports[`renders correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        className="ui inverted vertical center aligned segment sc-bdVaJa gzVOgZ"
+      >
+        <div
+          className="ui large inverted pointing secondary menu"
+        >
+          <div
+            className="ui container"
+          >
+            <a
+              className="active item"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+            <a
+              className="item"
+              onClick={[Function]}
+            >
+              Work
+            </a>
+            <a
+              className="item"
+              onClick={[Function]}
+            >
+              Company
+            </a>
+            <a
+              className="item"
+              onClick={[Function]}
+            >
+              Careers
+            </a>
+            <div
+              className="right item"
+              onClick={[Function]}
+            >
+              <a
+                className="ui inverted button"
+                onClick={[Function]}
+                role="button"
+              >
+                Log in
+              </a>
+              <a
+                className="ui inverted button"
+                onClick={[Function]}
+                role="button"
+                style={
+                  Object {
+                    "marginLeft": "0.5em",
+                  }
+                }
+              >
+                Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div>
+       Hey!
+    </div>
+     
+  </div>
+</div>
+`;

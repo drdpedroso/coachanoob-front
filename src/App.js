@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 import Button from './components/Button'
 import {ContextProvider} from "./state/state";
 import LoginForm from "./components/LoginForm"
+import './App.scss'
 import 'semantic-ui-css/semantic.min.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
