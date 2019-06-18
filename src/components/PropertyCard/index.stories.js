@@ -17,3 +17,9 @@ storiesOf('PropertyCard', module)
         </div>
     ))
 
+    .add('with text primary loading', () => (
+        <div style={{padding: 10}}>
+            <PropertyCard item={Listing} isCarousel arrows loading/>
+        </div>
+    ))
+

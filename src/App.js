@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import PropertyCard from "./components/PropertyCard";
+import NavBar from "./components/Navbar"
 
 export const Listing = {
     'id': '0002caf0-452a-49cc-865f-28c0d2d00ae4',
@@ -65,14 +66,24 @@ function Users() {
     return <h2>Users</h2>;
 }
 
+const leftItems = [
+    { as: "a", content: "Home", key: "home" },
+    { as: "a", content: "Users", key: "users" }
+];
+const rightItems = [
+    { as: "a", content: "Login", key: "login" },
+    { as: "a", content: "Register", key: "register" }
+];
 function App() {
     return (
         <ContextProvider>
+            <NavBar leftItems={leftItems} rightItems={rightItems}>
             <Router>
                 <Route path="/" exact component={Index}/>
                 <Route path="/about/" component={About}/>
                 <Route path="/users/" component={Users}/>
             </Router>
+            </NavBar>
         </ContextProvider>
     );
 }
