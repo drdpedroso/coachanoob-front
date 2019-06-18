@@ -1,12 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
-<div
-  className="ui input"
->
-  <input
-    onChange={[Function]}
-    type="text"
-  />
-</div>
-`;
+exports[`renders correctly 1`] = `null`;
