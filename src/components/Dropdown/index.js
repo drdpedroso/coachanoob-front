@@ -6,13 +6,13 @@ const BaseDropdown = (props) => {
     return (
         <Dropdown
             {...props}
-            onClick={props.onClick}
+            onChange={props.onChange}
         />
     )
 };
 
 BaseDropdown.propTypes = {
-    onClick: PropTypes.func,
+    onChange: PropTypes.func,
     children: PropTypes.node
 };
 

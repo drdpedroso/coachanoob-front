@@ -1,7 +1,5 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
-import {action} from '@storybook/addon-actions';
-
 import Dropdown from './';
 
 const countryOptions = [
@@ -40,6 +38,18 @@ storiesOf('Dropdown', module)
     .add('with selection', () => (
         <div style={{padding: 20}}>
             <Dropdown selection options={countryOptions}/>
+        </div>
+    ))
+
+    .add('with selection and default value', () => (
+        <div style={{padding: 20}}>
+            <Dropdown selection options={countryOptions} defaultValue="bs"/>
+        </div>
+    ))
+
+    .add('with selection and placeholder', () => (
+        <div style={{padding: 20}}>
+            <Dropdown selection  placeholder='Select a country' options={countryOptions}/>
         </div>
     ))
 

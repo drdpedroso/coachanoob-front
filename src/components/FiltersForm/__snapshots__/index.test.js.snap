@@ -1,49 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
-<form
-  className="ui error form"
-  onSubmit={[Function]}
->
+exports[`FiltersForm renders correctly 1`] = `
+<div>
   <div
-    className="field"
+    className="sc-htpNat icOVtr"
   >
-    <label>
-      Senha
-    </label>
-    <input
-      data-testid="password"
-      onChange={[Function]}
-      placeholder="Senha"
-      type="password"
-    />
+    <button
+      className="ui button"
+      data-testid="open-filters"
+      onClick={[Function]}
+    >
+      Abrir
+    </button>
   </div>
-  <div
-    className="field"
-  >
-    <label>
-      Repetir Senha
-    </label>
-    <input
-      data-testid="repeatPassword"
-      onChange={[Function]}
-      placeholder="Repetir Senha"
-      type="password"
-    />
-  </div>
-  <div
-    className="ui error message"
-    data-testid="error-message"
-  />
-  <button
-    className="ui fluid disabled button"
-    data-testid="submit"
-    disabled={true}
-    onClick={[Function]}
-    tabIndex={-1}
-    type="submit"
-  >
-    Entrar
-  </button>
-</form>
+</div>
 `;

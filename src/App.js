@@ -1,9 +1,6 @@
-import React, {useContext} from "react";
-import {FiltersContext} from "./state";
+import React from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import Button from './components/Button'
 import {ContextProvider} from "./state/state";
-import LoginForm from "./components/LoginForm"
 import './App.scss'
 import 'semantic-ui-css/semantic.min.css'
 import "slick-carousel/slick/slick.css";
@@ -11,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import PropertyCard from "./components/PropertyCard";
 import NavBar from "./components/Navbar"
+import FiltersForm from "./components/FiltersForm"
 
 export const Listing = {
     'id': '0002caf0-452a-49cc-865f-28c0d2d00ae4',
@@ -48,13 +46,18 @@ export const Listing = {
 }
 
 function Index() {
-    const {filters, setFilters} = useContext(FiltersContext);
+    // const {filters, setFilters} = useContext(FiltersContext);
     return (
-        <div className="max-w-sm w-full lg:max-w-full lg:flex">
-            <pre>{JSON.stringify(filters)}</pre>
-            <Button onClick={(e) => setFilters({leke: 123})}>eeee</Button>
-            <LoginForm onSubmit={(form) => console.log(form)}/>
-            <PropertyCard item={Listing} carousel/>
+        <div >
+            <FiltersForm/>
+            {/*<pre>{JSON.stringify(filters)}</pre>*/}
+            {/*<Button onClick={(e) => setFilters({leke: 123})}>eeee</Button>*/}
+            <div style={{display: 'flex', flexWrap: 'wrap', padding: 20}}>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+            </div>
         </div>
     )
 }

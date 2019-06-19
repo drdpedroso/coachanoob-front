@@ -7,7 +7,15 @@ import styled from "styled-components";
 
 const MenuItem = styled(Menu.Item)`
     border: 0.5px solid black !important;
-    font-size: 1.21em;
+    font-size: 1.23em;
+    color: ${props => {
+        return props.white ? 'white !important' : ''
+    }}
+`
+
+const MenuContainer = styled(Menu)`
+    justify-content: center
+    width: 100%;
 `
 
 const RadioButtonGroup = (props) => {
@@ -31,21 +39,26 @@ const RadioButtonGroup = (props) => {
     };
 
     return (
-        <Menu secondary>
+        <MenuContainer secondary white={props.white}>
             {
                 props.items.map(mountMenuItem)
             }
-        </Menu>
+        </MenuContainer>
     )
 };
 
 RadioButtonGroup.propTypes = {
     onItemClick: PropTypes.func,
+    white: PropTypes.bool,
     children: PropTypes.node,
     item: PropTypes.shape({
         value: PropTypes.string,
         name: PropTypes.string
     })
 };
+
+RadioButtonGroup.defaultProps = {
+    onItemClick: () => {}
+}
 
 export default RadioButtonGroup

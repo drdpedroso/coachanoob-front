@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ui breadcrumb"
+>
+  <a
+    className="section"
+    data-testid="Home"
+    href="/"
+    onClick={[Function]}
+  >
+    Home
+  </a>
+  <div
+    className="divider"
+  >
+    /
+  </div>
+  <a
+    className="active section"
+    data-testid="User"
+    href="/user"
+    onClick={[Function]}
+  >
+    User
+  </a>
+</div>
+`;

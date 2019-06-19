@@ -1,10 +1,15 @@
 import React from 'react';
-import Button from './index'
+import FiltersForm from './index'
 import renderer from 'react-test-renderer';
+import {cleanup} from "@testing-library/react"
 
-it('renders correctly', () => {
-    const tree = renderer
-        .create(<Button>Menor Bolado</Button>)
-        .toJSON();
-    expect(tree).toMatchSnapshot();
-});
+afterEach(cleanup)
+
+describe('FiltersForm', () => {
+    it('renders correctly', () => {
+        const tree = renderer
+            .create(<FiltersForm/>)
+            .toJSON();
+        expect(tree).toMatchSnapshot();
+    });
+})
