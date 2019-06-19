@@ -1,10 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
-<button
-  className="ui button"
-  onClick={[Function]}
+exports[`RadioButtonGroup renders correctly 1`] = `
+<div
+  className="ui secondary menu"
 >
-  Menor Bolado
-</button>
+  <a
+    className="item sc-bdVaJa rTCaY"
+    data-testid="1+"
+    onClick={[Function]}
+  >
+    1+
+  </a>
+  <a
+    className="item sc-bdVaJa rTCaY"
+    data-testid="2+"
+    onClick={[Function]}
+  >
+    2+
+  </a>
+  <a
+    className="item sc-bdVaJa rTCaY"
+    data-testid="3+"
+    onClick={[Function]}
+  >
+    3+
+  </a>
+  <a
+    className="item sc-bdVaJa rTCaY"
+    data-testid="4+"
+    onClick={[Function]}
+  >
+    4+
+  </a>
+  <a
+    className="item sc-bdVaJa rTCaY"
+    data-testid="5+"
+    onClick={[Function]}
+  >
+    5+
+  </a>
+</div>
 `;

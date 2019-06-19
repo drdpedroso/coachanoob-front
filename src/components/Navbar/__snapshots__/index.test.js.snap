@@ -1,7 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`NavBar renders correctly 1`] = `
-<div>
+<div
+  style={
+    Object {
+      "height": "100vh",
+    }
+  }
+>
   <div>
     <div>
       <div

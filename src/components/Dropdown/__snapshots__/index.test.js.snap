@@ -1,0 +1,513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  aria-expanded={false}
+  className="ui dropdown"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  role="listbox"
+  tabIndex={0}
+>
+  <div
+    aria-live="polite"
+    className="text"
+    role="alert"
+  />
+  <i
+    aria-hidden="true"
+    className="dropdown icon"
+    onClick={[Function]}
+  />
+  <div
+    className="menu transition"
+  >
+    <div
+      aria-checked={false}
+      aria-selected={true}
+      className="selected item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="af flag"
+      />
+      <span
+        className="text"
+      >
+        Afghanistan
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="ax flag"
+      />
+      <span
+        className="text"
+      >
+        Aland Islands
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="al flag"
+      />
+      <span
+        className="text"
+      >
+        Albania
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="dz flag"
+      />
+      <span
+        className="text"
+      >
+        Algeria
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="as flag"
+      />
+      <span
+        className="text"
+      >
+        American Samoa
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="ad flag"
+      />
+      <span
+        className="text"
+      >
+        Andorra
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="ao flag"
+      />
+      <span
+        className="text"
+      >
+        Angola
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="ai flag"
+      />
+      <span
+        className="text"
+      >
+        Anguilla
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="ag flag"
+      />
+      <span
+        className="text"
+      >
+        Antigua
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="ar flag"
+      />
+      <span
+        className="text"
+      >
+        Argentina
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="am flag"
+      />
+      <span
+        className="text"
+      >
+        Armenia
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="aw flag"
+      />
+      <span
+        className="text"
+      >
+        Aruba
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="au flag"
+      />
+      <span
+        className="text"
+      >
+        Australia
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="at flag"
+      />
+      <span
+        className="text"
+      >
+        Austria
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="az flag"
+      />
+      <span
+        className="text"
+      >
+        Azerbaijan
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="bs flag"
+      />
+      <span
+        className="text"
+      >
+        Bahamas
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="bh flag"
+      />
+      <span
+        className="text"
+      >
+        Bahrain
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="bd flag"
+      />
+      <span
+        className="text"
+      >
+        Bangladesh
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="bb flag"
+      />
+      <span
+        className="text"
+      >
+        Barbados
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="by flag"
+      />
+      <span
+        className="text"
+      >
+        Belarus
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="be flag"
+      />
+      <span
+        className="text"
+      >
+        Belgium
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="bz flag"
+      />
+      <span
+        className="text"
+      >
+        Belize
+      </span>
+    </div>
+    <div
+      aria-checked={false}
+      aria-selected={false}
+      className="item"
+      onClick={[Function]}
+      role="option"
+      style={
+        Object {
+          "pointerEvents": "all",
+        }
+      }
+    >
+      <i
+        className="bj flag"
+      />
+      <span
+        className="text"
+      >
+        Benin
+      </span>
+    </div>
+  </div>
+</div>
+`;

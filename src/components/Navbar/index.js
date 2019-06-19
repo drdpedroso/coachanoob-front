@@ -125,7 +125,7 @@ MobileContainer.propTypes = {
 
 const ResponsiveContainer = (props) => {
     return (
-        <div>
+        <div style={{height: '100vh'}}>
             <DesktopContainer location={props.location}>{props.children}</DesktopContainer>
             <MobileContainer location={props.location}>{props.children}</MobileContainer>
         </div>
