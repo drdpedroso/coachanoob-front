@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`NavBar renders correctly 1`] = `
 <div>
   <div>
     <div>
       <div
-        className="ui inverted vertical center aligned segment sc-bdVaJa gzVOgZ"
+        className="ui inverted vertical center aligned segment sc-bdVaJa fGrPIJ"
       >
         <div
           className="ui large inverted pointing secondary menu"
@@ -15,27 +15,43 @@ exports[`renders correctly 1`] = `
           >
             <a
               className="active item"
+              data-testid="link-to-home"
+              href="/"
               onClick={[Function]}
             >
               Home
             </a>
             <a
               className="item"
+              data-testid="link-to-search"
+              href="/user"
               onClick={[Function]}
             >
-              Work
+              Pesquisar anúncios
             </a>
             <a
               className="item"
+              data-testid="link-to-my-listing"
+              href=""
               onClick={[Function]}
             >
-              Company
+              Meus anúncios
             </a>
             <a
               className="item"
+              data-testid="link-to-my-proposal"
+              href=""
               onClick={[Function]}
             >
-              Careers
+              Minhas Propostas
+            </a>
+            <a
+              className="item"
+              data-testid="link-to-how-it-works"
+              href=""
+              onClick={[Function]}
+            >
+              Como Funciona?
             </a>
             <div
               className="right item"
@@ -43,13 +59,7 @@ exports[`renders correctly 1`] = `
             >
               <a
                 className="ui inverted button"
-                onClick={[Function]}
-                role="button"
-              >
-                Log in
-              </a>
-              <a
-                className="ui inverted button"
+                data-testid="logout-button"
                 onClick={[Function]}
                 role="button"
                 style={
@@ -58,18 +68,16 @@ exports[`renders correctly 1`] = `
                   }
                 }
               >
-                Sign Up
+                Sair
               </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-     
     <div>
        Hey!
     </div>
-     
   </div>
 </div>
 `;

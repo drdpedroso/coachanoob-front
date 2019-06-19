@@ -2,16 +2,22 @@ import PropTypes from 'prop-types'
 import React, {useState} from 'react'
 import {Button, Container, Icon, Menu, Responsive, Sidebar, Visibility,} from 'semantic-ui-react'
 import {DesktopSegment, MobileSegment} from './style'
+import {Link, withRouter} from "react-router-dom";
 
 const getWidth = () => window.innerWidth
 
-const DesktopContainer = (props) => {
+const isActive = (currentLocation) => (path) => {
+    return path === currentLocation
+}
+
+const DesktopContainer = ({children, location}) => {
     const [fixed, setFixed] = useState(false)
 
     const hideFixedMenu = () => setFixed(false)
     const showFixedMenu = () => setFixed(true)
 
-    const { children } = props
+    const isMenuActive = isActive(location.pathname)
+
     return (
         <Responsive getWidth={getWidth} minWidth={Responsive.onlyTablet.minWidth}>
             <Visibility
@@ -32,15 +38,17 @@ const DesktopContainer = (props) => {
                         size='large'
                     >
                         <Container>
-                            <Menu.Item as='a' active>
+                            <Menu.Item data-testid="link-to-home" as={Link} to='/' active={isMenuActive('/')}>
                                 Home
                             </Menu.Item>
-                            <Menu.Item as='a'>Pesquisar anúncios</Menu.Item>
-                            <Menu.Item as='a'>Meus anúncios</Menu.Item>
-                            <Menu.Item as='a'>Minhas Propostas</Menu.Item>
-                            <Menu.Item as='a'>Como Funciona?</Menu.Item>
+                            <Menu.Item data-testid="link-to-search" as={Link} to='/user' active={isMenuActive('/user')}>Pesquisar
+                                anúncios</Menu.Item>
+                            <Menu.Item data-testid="link-to-my-listing" as={Link}>Meus anúncios</Menu.Item>
+                            <Menu.Item data-testid="link-to-my-proposal" as={Link}>Minhas Propostas</Menu.Item>
+                            <Menu.Item data-testid="link-to-how-it-works" as={Link}>Como Funciona?</Menu.Item>
                             <Menu.Item position='right'>
-                                <Button as='a' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
+                                <Button data-testid="logout-button" as='a' inverted={!fixed} primary={fixed}
+                                        style={{marginLeft: '0.5em'}}>
                                     Sair
                                 </Button>
                             </Menu.Item>
@@ -58,13 +66,14 @@ DesktopContainer.propTypes = {
     children: PropTypes.node,
 }
 
-const MobileContainer = (props) => {
+const MobileContainer = ({children, location}) => {
     const [sidebarOpened, setSidebarOpened] = useState(false)
 
     const handleSidebarHide = () => setSidebarOpened(false)
     const handleToggle = () => setSidebarOpened(true)
 
-    const { children } = props
+    const isMenuActive = isActive(location.pathname)
+
     return (
         <Responsive
             as={Sidebar.Pushable}
@@ -79,14 +88,14 @@ const MobileContainer = (props) => {
                 vertical
                 visible={sidebarOpened}
             >
-                <Menu.Item as='a' active>
+                <Menu.Item as={Link} active={isMenuActive('/')}>
                     Home
                 </Menu.Item>
-                <Menu.Item as='a'>Pesquisar anúncios</Menu.Item>
-                <Menu.Item as='a'>Meus anúncios</Menu.Item>
-                <Menu.Item as='a'>Minhas Propostas</Menu.Item>
-                <Menu.Item as='a'>Como Funciona?</Menu.Item>
-                <Menu.Item as='a'>Sair</Menu.Item>
+                <Menu.Item as={Link}>Pesquisar anúncios</Menu.Item>
+                <Menu.Item as={Link}>Meus anúncios</Menu.Item>
+                <Menu.Item as={Link}>Minhas Propostas</Menu.Item>
+                <Menu.Item as={Link}>Como Funciona?</Menu.Item>
+                <Menu.Item as={Link}>Sair</Menu.Item>
             </Sidebar>
 
             <Sidebar.Pusher dimmed={sidebarOpened} style={{padding: 0}}>
@@ -99,7 +108,7 @@ const MobileContainer = (props) => {
                     <Container style={{margin: 'auto'}}>
                         <Menu inverted pointing secondary size='large'>
                             <Menu.Item onClick={handleToggle}>
-                                <Icon name='sidebar' />
+                                <Icon name='sidebar'/>
                             </Menu.Item>
                         </Menu>
                     </Container>
@@ -114,11 +123,13 @@ MobileContainer.propTypes = {
     children: PropTypes.node,
 }
 
-const ResponsiveContainer = ({ children }) => (
-    <div>
-        <DesktopContainer>{children}</DesktopContainer>
-        <MobileContainer>{children}</MobileContainer>
-    </div>
-)
+const ResponsiveContainer = (props) => {
+    return (
+        <div>
+            <DesktopContainer location={props.location}>{props.children}</DesktopContainer>
+            <MobileContainer location={props.location}>{props.children}</MobileContainer>
+        </div>
+    )
+}
 
-export default ResponsiveContainer
+export default withRouter(ResponsiveContainer)

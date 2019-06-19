@@ -59,37 +59,37 @@ const PropertyCard = (props) => {
             <Card style={{width: 330, minHeight: 450}}>
                 {props.loading ?
                     (
-                            <Placeholder style={{width: 330, height: 220}}>
-                                <Placeholder.Image square />
-                            </Placeholder>
+                        <Placeholder style={{width: 330, height: 220}}>
+                            <Placeholder.Image square/>
+                        </Placeholder>
                     ) :
                     <Slider {...settings}>{getImages()}</Slider>
                 }
                 <Card.Content>
                     {props.loading ? loadingState :
-                    <React.Fragment>
-                        <Card.Header style={{fontSize: '1.12em'}}>{props.item.title}</Card.Header>
-                        <Card.Meta>
-                            <span>{props.item.property.type}</span>
-                        </Card.Meta>
-                        <AddressRow>
-                            <span>{props.item.property.address.street}</span>
-                            <div>{props.item.property.address.neighborhood} - {props.item.property.address.city}</div>
-                        </AddressRow>
-                        <InformationRow>
-                            <div>
-                                <Icon size='small' name="th"/>
-                                {props.item.property.area} m2
-                            </div>
-                            <div>
-                                <Icon size='small' name="bed"/>
-                                {props.item.property.bedrooms} dormitórios
-                            </div>
-                        </InformationRow>
-                        <PriceText>
-                            {formatToCurrency(props.item.salePrice || 0)}
-                        </PriceText>
-                    </React.Fragment>}
+                        <React.Fragment>
+                            <Card.Header style={{fontSize: '1.12em'}}>{props.item.title}</Card.Header>
+                            <Card.Meta>
+                                <span>{props.item.property.type}</span>
+                            </Card.Meta>
+                            <AddressRow>
+                                <span>{props.item.property.address.street}</span>
+                                <div>{props.item.property.address.neighborhood} - {props.item.property.address.city}</div>
+                            </AddressRow>
+                            <InformationRow>
+                                <div>
+                                    <Icon size='small' name="th"/>
+                                    {props.item.property.area} m2
+                                </div>
+                                <div>
+                                    <Icon size='small' name="bed"/>
+                                    {props.item.property.bedrooms} dormitórios
+                                </div>
+                            </InformationRow>
+                            <PriceText>
+                                {formatToCurrency(props.item.salePrice || 0)}
+                            </PriceText>
+                        </React.Fragment>}
                 </Card.Content>
                 <Card.Content extra>
                     <Button data-testid="request-proposal" fluid positive onClick={onClick}>Solicitar Parceria</Button>
