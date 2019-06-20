@@ -13,6 +13,7 @@
     "react-scripts": "3.0.1",
     "react-slick": "^0.24.0",
     "react-spring": "^8.0.25",
+    "rifm": "^0.9.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.87.1",
     "slick-carousel": "^1.8.1",

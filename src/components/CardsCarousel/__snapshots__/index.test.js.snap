@@ -1,0 +1,1123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="slick-slider slick-initialized"
+  dir="ltr"
+>
+  <div
+    className="slick-list"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={null}
+    onMouseMove={null}
+    onMouseUp={[Function]}
+    onTouchCancel={null}
+    onTouchEnd={[Function]}
+    onTouchMove={null}
+    onTouchStart={[Function]}
+    style={Object {}}
+  >
+    <div
+      className="slick-track"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "WebkitTransform": "translate3d(0px, 0px, 0px)",
+          "WebkitTransition": "",
+          "msTransform": "translateX(0px)",
+          "opacity": 1,
+          "transform": "translate3d(0px, 0px, 0px)",
+          "transition": "",
+        }
+      }
+    >
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={-3}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={-2}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={-1}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active slick-current"
+        data-index={0}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active"
+        data-index={1}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={false}
+        className="slick-slide slick-active"
+        data-index={2}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide"
+        data-index={3}
+        onClick={[Function]}
+        style={
+          Object {
+            "outline": "none",
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={4}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={5}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={6}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-hidden={true}
+        className="slick-slide slick-cloned"
+        data-index={7}
+        onClick={[Function]}
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+        tabIndex="-1"
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "display": "inline-block",
+                "width": "100%",
+              }
+            }
+            tabIndex={-1}
+          >
+            <div
+              className="ui card"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minHeight": 450,
+                  "width": 330,
+                }
+              }
+            >
+              <div
+                className="ui placeholder"
+                style={
+                  Object {
+                    "height": 220,
+                    "width": 330,
+                  }
+                }
+              >
+                <div
+                  className="square image"
+                />
+              </div>
+              <div
+                className="content"
+              >
+                <div
+                  className="ui placeholder"
+                >
+                  <div
+                    className="header"
+                  >
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div>
+                    <div
+                      className="line short"
+                    />
+                  </div>
+                  <div
+                    className="sc-htpNat drBHcL"
+                  >
+                    <div
+                      className="line medium"
+                    />
+                    <div
+                      className="line long"
+                    />
+                  </div>
+                  <div
+                    className="paragraph"
+                  >
+                    <div
+                      className="line"
+                      lenght="short"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="extra content"
+              >
+                <button
+                  className="ui fluid positive button"
+                  data-testid="request-proposal"
+                  onClick={[Function]}
+                >
+                  Solicitar Parceria
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

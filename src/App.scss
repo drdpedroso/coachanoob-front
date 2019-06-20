@@ -6,11 +6,16 @@
   }
 }
 
-.ui.secondary.menu .active.item {
-  background: rgba(192,192,192, 0.4) !important;
+.field {
+  .ui.secondary.menu .active.item {
+
+    background: rgba(192, 192, 192, 0.4);
+
+  }
+
 }
 
-.ui.card{
+.ui.card {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }

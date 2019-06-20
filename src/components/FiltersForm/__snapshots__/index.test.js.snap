@@ -2,16 +2,18 @@
 
 exports[`FiltersForm renders correctly 1`] = `
 <div>
-  <div
-    className="sc-htpNat icOVtr"
-  >
-    <button
-      className="ui button"
-      data-testid="open-filters"
-      onClick={[Function]}
+  <div>
+    <div
+      className="sc-htpNat icOVtr"
     >
-      Abrir
-    </button>
+      <button
+        className="ui button"
+        data-testid="open-filters"
+        onClick={[Function]}
+      >
+        Abrir
+      </button>
+    </div>
   </div>
 </div>
 `;

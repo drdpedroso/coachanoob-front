@@ -1,4 +1,4 @@
-import React from "react";
+import React, {createRef} from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import {ContextProvider} from "./state/state";
 import './App.scss'
@@ -6,9 +6,12 @@ import 'semantic-ui-css/semantic.min.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import {Button, Card, Sticky} from "semantic-ui-react";
+
 import PropertyCard from "./components/PropertyCard";
 import NavBar from "./components/Navbar"
 import FiltersForm from "./components/FiltersForm"
+import StickyButton from "./components/StickyButton";
 
 export const Listing = {
     'id': '0002caf0-452a-49cc-865f-28c0d2d00ae4',
@@ -45,19 +48,36 @@ export const Listing = {
     '__typename': 'Listing'
 }
 
+const isMobile = () => window.innerWidth <= 755
+
 function Index() {
+    const contextRef = createRef()
     // const {filters, setFilters} = useContext(FiltersContext);
     return (
-        <div >
+        <div>
             <FiltersForm/>
             {/*<pre>{JSON.stringify(filters)}</pre>*/}
             {/*<Button onClick={(e) => setFilters({leke: 123})}>eeee</Button>*/}
-            <div style={{display: 'flex', flexWrap: 'wrap', padding: 20}}>
+            {/*<div style={{display: 'flex', flexWrap: 'wrap', padding: 20}}>*/}
+            <Card.Group centered={isMobile()}>
                 <PropertyCard item={Listing} carousel/>
                 <PropertyCard item={Listing} carousel/>
                 <PropertyCard item={Listing} carousel/>
                 <PropertyCard item={Listing} carousel/>
-            </div>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+            </Card.Group>
+            {/*</div>*/}
         </div>
     )
 }

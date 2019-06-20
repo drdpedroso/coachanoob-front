@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
 import PropTypes from 'prop-types';
 import Button from '../Button'
-import {Form} from 'semantic-ui-react'
+import {Form, Responsive, Segment} from 'semantic-ui-react'
 import BaseDropdown from "../Dropdown"
 import BaseInput from "../Input"
 import RadioButtonGroup from "../RadioButtonGroup"
 import {FiltersContainer, FormContainer, Label, FiltersInnerContainer} from './styles'
+import StickyButton from "../StickyButton";
 
 const FiltersForm = (props) => {
     const [form, setForm] = useState({})
@@ -19,7 +20,7 @@ const FiltersForm = (props) => {
     }
 
     const onChangeInputValue = (e: any, key: string) => {
-        const { value } = e.target
+        const {value} = e.target
         setForm({
             ...form,
             [key]: value
@@ -65,63 +66,82 @@ const FiltersForm = (props) => {
     ]
     return (
         <div>
-            <FiltersContainer>
-                <Button onClick={openFilters} data-testid="open-filters">Abrir</Button>
-            </FiltersContainer>
+
+            <Responsive as={'div'} maxWidth={768}>
+                <StickyButton onClick={openFilters} data-testid="open-filters">Abrir</StickyButton>
+            </Responsive>
+            <Responsive as={'div'} minWidth={769}>
+                <FiltersContainer>
+                    <Button onClick={openFilters} data-testid="open-filters">Abrir</Button>
+                </FiltersContainer>
+            </Responsive>
+
             {open && <FiltersInnerContainer>
                 <FormContainer>
-                    <Form.Field >
-                        <Label >Tipo de Uso</Label>
-                        <BaseDropdown options={countryOptions} onChange={(e, data) => onChangeDropdownValue(data.value, 'usageType')}
+                    <Form.Field>
+                        <Label>Tipo de Uso</Label>
+                        <BaseDropdown options={countryOptions}
+                                      onChange={(e, data) => onChangeDropdownValue(data.value, 'usageType')}
                                       selection/>
                     </Form.Field>
                     <Form.Field>
-                        <Label >Tipo de Imóvel</Label>
-                        <BaseDropdown options={countryOptions} onChange={(e, data) => onChangeDropdownValue(data.value, 'type')} selection/>
+                        <Label>Tipo de Imóvel</Label>
+                        <BaseDropdown options={countryOptions}
+                                      onChange={(e, data) => onChangeDropdownValue(data.value, 'type')} selection/>
                     </Form.Field>
                     <Form.Group>
                         <Form.Field width={4}>
-                            <Label >Estado</Label>
-                            <BaseDropdown fluid selection defaultValue="SP" onChange={(e, data) => onChangeDropdownValue(data.value, 'state')} />
+                            <Label>Estado</Label>
+                            <BaseDropdown fluid selection defaultValue="SP"
+                                          onChange={(e, data) => onChangeDropdownValue(data.value, 'state')}/>
                         </Form.Field>
                         <Form.Field width={12}>
-                            <Label >Cidade</Label>
-                            <BaseDropdown fluid selection onChange={(e, data) => onChangeDropdownValue(data.value, 'city')} />
+                            <Label>Cidade</Label>
+                            <BaseDropdown fluid selection
+                                          onChange={(e, data) => onChangeDropdownValue(data.value, 'city')}/>
                         </Form.Field>
                     </Form.Group>
                     <Form.Field>
-                        <Label >Bairro</Label>
-                        <BaseInput data-testid="neighborhood"  disabled onChange={(e) => onChangeInputValue(e, 'neighborhood')}/>
+                        <Label>Bairro</Label>
+                        <BaseInput data-testid="neighborhood" disabled
+                                   onChange={(e) => onChangeInputValue(e, 'neighborhood')}/>
                     </Form.Field>
                     <Form.Group widths="equal">
                         <Form.Field>
-                            <Label >Valor min.</Label>
-                            <BaseInput data-testid="salePriceFrom"  fluid onChange={(e) => onChangeInputValue(e, 'salePriceFrom')}/>
+                            <Label>Valor min.</Label>
+                            <BaseInput data-testid="salePriceFrom" fluid
+                                       onChange={(e) => onChangeInputValue(e, 'salePriceFrom')}/>
                         </Form.Field>
                         <Form.Field>
-                            <Label >Valor max.</Label>
-                            <BaseInput data-testid="salePriceTo"  fluid onChange={(e) => onChangeInputValue(e, 'salePriceTo')}/>
+                            <Label>Valor max.</Label>
+                            <BaseInput data-testid="salePriceTo" fluid
+                                       onChange={(e) => onChangeInputValue(e, 'salePriceTo')}/>
                         </Form.Field>
                     </Form.Group>
                     <Form.Field>
-                        <Label >Quartos</Label>
-                        <RadioButtonGroup data-testid="rooms" white onItemClick={(value) => onChangeDropdownValue(value, 'rooms')} items={items}/>
+                        <Label>Quartos</Label>
+                        <RadioButtonGroup data-testid="rooms" white
+                                          onItemClick={(value) => onChangeDropdownValue(value, 'rooms')} items={items}/>
                     </Form.Field>
                     <Form.Field>
-                        <Label >Suites</Label>
-                        <RadioButtonGroup data-testid="suites" white onItemClick={(value) => onChangeDropdownValue(value, 'suites')} items={items}/>
+                        <Label>Suites</Label>
+                        <RadioButtonGroup data-testid="suites" white
+                                          onItemClick={(value) => onChangeDropdownValue(value, 'suites')}
+                                          items={items}/>
                     </Form.Field>
                     <Form.Field>
-                        <Label >Banheiros</Label>
-                        <RadioButtonGroup white onItemClick={(value) => onChangeDropdownValue(value, 'rooms')} items={items}/>
+                        <Label>Banheiros</Label>
+                        <RadioButtonGroup white onItemClick={(value) => onChangeDropdownValue(value, 'rooms')}
+                                          items={items}/>
                     </Form.Field>
                     <Form.Field>
-                        <Label >Vagas na Garagem</Label>
-                        <RadioButtonGroup white onItemClick={(value) => onChangeDropdownValue(value, 'rooms')} items={items}/>
+                        <Label>Vagas na Garagem</Label>
+                        <RadioButtonGroup white onItemClick={(value) => onChangeDropdownValue(value, 'rooms')}
+                                          items={items}/>
                     </Form.Field>
                     <Button data-testid="submit" type='submit' fluid onClick={onSubmit}>Filtrar</Button>
                 </FormContainer>
-        </FiltersInnerContainer>}
+            </FiltersInnerContainer>}
         </div>
     )
 }

@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import {Button, Container, Icon, Menu, Responsive, Sidebar, Visibility,} from 'semantic-ui-react'
 import {DesktopSegment, MobileSegment} from './style'
 import {Link, withRouter} from "react-router-dom";
+import StickyButton from "../StickyButton";
 
 const getWidth = () => window.innerWidth
 
