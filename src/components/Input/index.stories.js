@@ -16,14 +16,18 @@ storiesOf('Input', module)
     ))
     .add('with icon left', () => (
         <Input iconPosition='left' placeholder='Email'>
-            <Icon name='at' />
-            <input />
+            <Icon name='at'/>
+            <input/>
         </Input>
     ))
     .add('with icon right', () => (
         <Input iconPosition='right' placeholder='Email'>
-            <Icon name='at' />
-            <input />
+            <Icon name='at'/>
+            <input/>
         </Input>
+    ))
+
+    .add('with type date', () => (
+        <Input type="date" placeholder='Date'/>
     ))
 

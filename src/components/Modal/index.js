@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import {Modal} from 'semantic-ui-react'
 
-const BaseInput = (props) => {
+const BaseModal = (props) => {
     return (
         <Modal trigger={props.openModal}>
             {props.header && <Modal.Header>{props.header}</Modal.Header>}
@@ -18,10 +18,10 @@ const BaseInput = (props) => {
     )
 };
 
-BaseInput.propTypes = {
+BaseModal.propTypes = {
     openModal: PropTypes.node,
     header: PropTypes.string,
     children: PropTypes.node
 };
 
-export default BaseInput
+export default BaseModal
