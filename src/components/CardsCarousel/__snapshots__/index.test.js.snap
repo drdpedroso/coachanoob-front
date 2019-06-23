@@ -58,76 +58,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -156,76 +165,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -254,76 +272,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -353,76 +380,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -452,76 +488,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -551,76 +596,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -650,76 +704,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -748,76 +811,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -846,76 +918,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -944,76 +1025,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -1042,76 +1132,85 @@ exports[`renders correctly 1`] = `
             tabIndex={-1}
           >
             <div
-              className="ui card"
-              onClick={[Function]}
               style={
                 Object {
-                  "minHeight": 450,
-                  "width": 330,
+                  "margin": 5,
+                  "padding": 7,
                 }
               }
             >
               <div
-                className="ui placeholder"
+                className="ui card"
+                onClick={[Function]}
                 style={
                   Object {
-                    "height": 220,
+                    "minHeight": 450,
                     "width": 330,
                   }
                 }
               >
                 <div
-                  className="square image"
-                />
-              </div>
-              <div
-                className="content"
-              >
-                <div
                   className="ui placeholder"
+                  style={
+                    Object {
+                      "height": 220,
+                      "width": 330,
+                    }
+                  }
                 >
                   <div
-                    className="header"
-                  >
-                    <div
-                      className="line long"
-                    />
-                  </div>
-                  <div>
-                    <div
-                      className="line short"
-                    />
-                  </div>
+                    className="square image"
+                  />
+                </div>
+                <div
+                  className="content"
+                >
                   <div
-                    className="sc-htpNat drBHcL"
+                    className="ui placeholder"
                   >
                     <div
-                      className="line medium"
-                    />
+                      className="header"
+                    >
+                      <div
+                        className="line long"
+                      />
+                    </div>
+                    <div>
+                      <div
+                        className="line short"
+                      />
+                    </div>
                     <div
-                      className="line long"
-                    />
-                  </div>
-                  <div
-                    className="paragraph"
-                  >
+                      className="sc-htpNat drBHcL"
+                    >
+                      <div
+                        className="line medium"
+                      />
+                      <div
+                        className="line long"
+                      />
+                    </div>
                     <div
-                      className="line"
-                      lenght="short"
-                    />
+                      className="paragraph"
+                    >
+                      <div
+                        className="line"
+                        lenght="short"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="extra content"
-              >
-                <button
-                  className="ui fluid positive button"
-                  data-testid="request-proposal"
-                  onClick={[Function]}
+                <div
+                  className="extra content"
                 >
-                  Solicitar Parceria
-                </button>
+                  <button
+                    className="ui fluid positive button"
+                    data-testid="request-proposal"
+                    onClick={[Function]}
+                  >
+                    Solicitar Parceria
+                  </button>
+                </div>
               </div>
             </div>
           </div>

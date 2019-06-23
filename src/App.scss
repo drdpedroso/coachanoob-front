@@ -8,12 +8,22 @@
 
 .field {
   .ui.secondary.menu .active.item {
-
     background: rgba(192, 192, 192, 0.4);
-
   }
 
 }
+
+.ui.centered.cards::after {
+  content: "";
+  //padding: 7px;
+  //margin: 5px;
+  //flex-grow: 1;
+  //align-self: center;
+}
+
+//.ui.centered.cards:last-child {
+//  margin-left: 2px !important;
+//}
 
 .ui.card {
   margin-top: 0 !important;

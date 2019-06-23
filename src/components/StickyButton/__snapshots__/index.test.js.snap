@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <button
-  className="ui button sc-bdVaJa XrLkQ"
+  className="ui button sc-bdVaJa dxJhFo"
   onClick={[Function]}
 >
   Menor Bolado

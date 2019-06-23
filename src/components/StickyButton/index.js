@@ -5,9 +5,9 @@ import styled from 'styled-components'
 
 const ButtonWithSticky = styled(Button)`
     position: fixed;
-    top 5px;
+    top: 10px;
     z-index: 3;
-    left: 40%; 
+    left: 39%; 
 `
 
 const StickyButton = (props) => {

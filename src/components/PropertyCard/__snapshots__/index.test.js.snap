@@ -2,1395 +2,1422 @@
 
 exports[`PropertyCard renders correctly 1`] = `
 <div
-  className="ui card"
-  onClick={[Function]}
   style={
     Object {
-      "minHeight": 450,
-      "width": 330,
+      "margin": 5,
+      "padding": 7,
     }
   }
 >
   <div
-    className="slick-slider slick-initialized"
+    className="ui card"
+    onClick={[Function]}
+    style={
+      Object {
+        "minHeight": 450,
+        "width": 330,
+      }
+    }
   >
-    
     <div
-      className="slick-list"
+      className="slick-slider slick-initialized"
     >
+      
       <div
-        className="slick-track"
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        onMouseOver={[Function]}
-        style={
-          Object {
-            "WebkitTransform": "translate3d(0px, 0px, 0px)",
-            "WebkitTransition": "",
-            "msTransform": "translateX(0px)",
-            "opacity": 1,
-            "transform": "translate3d(0px, 0px, 0px)",
-            "transition": "",
-          }
-        }
+        className="slick-list"
       >
         <div
-          aria-hidden={false}
-          className="slick-slide slick-active slick-current"
-          data-index={0}
-          onClick={[Function]}
+          className="slick-track"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
           style={
             Object {
-              "outline": "none",
-              "width": 0,
+              "WebkitTransform": "translate3d(0px, 0px, 0px)",
+              "WebkitTransition": "",
+              "msTransform": "translateX(0px)",
+              "opacity": 1,
+              "transform": "translate3d(0px, 0px, 0px)",
+              "transition": "",
             }
           }
-          tabIndex="-1"
         >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/crop/317x212/vr.images.sp/033e39324e5a9c74c9c3d693db633b0d.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={false}
+            className="slick-slide slick-active slick-current"
+            data-index={0}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/crop/317x212/vr.images.sp/033e39324e5a9c74c9c3d693db633b0d.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
         </div>
       </div>
+      
+      
     </div>
-    
-    
-  </div>
-  <div
-    className="content"
-  >
     <div
-      className="header"
-      style={
-        Object {
-          "fontSize": "1.12em",
+      className="content"
+    >
+      <div
+        className="header"
+        style={
+          Object {
+            "fontSize": "1.12em",
+          }
         }
-      }
-    >
-      Conjunto Comercial Duplex (Exclusividade)
-    </div>
-    <div
-      className="meta"
-    >
-      <span>
-        OFFICE
-      </span>
-    </div>
-    <div
-      className="sc-htpNat drBHcL"
-    >
-      <span>
-        Avenida Senador Pinheiro Machado
-      </span>
-      <div>
-        Marapé
-         - 
-        Santos
+      >
+        Conjunto Comercial Duplex (Exclusividade)
+      </div>
+      <div
+        className="meta"
+      >
+        <span>
+          OFFICE
+        </span>
+      </div>
+      <div
+        className="sc-htpNat drBHcL"
+      >
+        <span>
+          Avenida Senador Pinheiro Machado
+        </span>
+        <div>
+          Marapé
+           - 
+          Santos
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH ejhCzb"
+      >
+        <div>
+          <i
+            aria-hidden="true"
+            className="th small icon"
+            onClick={[Function]}
+          />
+          93
+           m2
+        </div>
+        <div>
+          <i
+            aria-hidden="true"
+            className="bed small icon"
+            onClick={[Function]}
+          />
+          0
+           dormitórios
+        </div>
+      </div>
+      <div
+        className="sc-bdVaJa dQeyfv"
+      >
+        R$265,000.00
       </div>
     </div>
     <div
-      className="sc-bwzfXH ejhCzb"
+      className="extra content"
     >
-      <div>
-        <i
-          aria-hidden="true"
-          className="th small icon"
-          onClick={[Function]}
-        />
-        93
-         m2
-      </div>
-      <div>
-        <i
-          aria-hidden="true"
-          className="bed small icon"
-          onClick={[Function]}
-        />
-        0
-         dormitórios
-      </div>
+      <button
+        className="ui fluid positive button"
+        data-testid="request-proposal"
+        onClick={[Function]}
+      >
+        Solicitar Parceria
+      </button>
     </div>
-    <div
-      className="sc-bdVaJa dQeyfv"
-    >
-      R$265,000.00
-    </div>
-  </div>
-  <div
-    className="extra content"
-  >
-    <button
-      className="ui fluid positive button"
-      data-testid="request-proposal"
-      onClick={[Function]}
-    >
-      Solicitar Parceria
-    </button>
   </div>
 </div>
 `;
 
 exports[`PropertyCard renders correctly with carousel 1`] = `
 <div
-  className="ui card"
-  onClick={[Function]}
   style={
     Object {
-      "minHeight": 450,
-      "width": 330,
+      "margin": 5,
+      "padding": 7,
     }
   }
 >
   <div
-    className="slick-slider slick-initialized"
-    dir="ltr"
+    className="ui card"
+    onClick={[Function]}
+    style={
+      Object {
+        "minHeight": 450,
+        "width": 330,
+      }
+    }
   >
     <div
-      className="slick-arrow slick-prev sc-bxivhb jRfSKl"
-      data-role="none"
-      onClick={[Function]}
-      style={
-        Object {
-          "display": "block",
-        }
-      }
-    >
-      V
-    </div>
-    <div
-      className="slick-list"
-      onClick={[Function]}
-      onKeyDown={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={null}
-      onMouseMove={null}
-      onMouseUp={[Function]}
-      onTouchCancel={null}
-      onTouchEnd={[Function]}
-      onTouchMove={null}
-      onTouchStart={[Function]}
-      style={Object {}}
+      className="slick-slider slick-initialized"
+      dir="ltr"
     >
       <div
-        className="slick-track"
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        onMouseOver={[Function]}
+        className="slick-arrow slick-prev sc-bxivhb jRfSKl"
+        data-role="none"
+        onClick={[Function]}
         style={
           Object {
-            "WebkitTransform": "translate3d(0px, 0px, 0px)",
-            "WebkitTransition": "",
-            "msTransform": "translateX(0px)",
-            "opacity": 1,
-            "transform": "translate3d(0px, 0px, 0px)",
-            "transition": "",
+            "display": "block",
           }
         }
       >
+        V
+      </div>
+      <div
+        className="slick-list"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={null}
+        onMouseMove={null}
+        onMouseUp={[Function]}
+        onTouchCancel={null}
+        onTouchEnd={[Function]}
+        onTouchMove={null}
+        onTouchStart={[Function]}
+        style={Object {}}
+      >
         <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={-1}
-          onClick={[Function]}
+          className="slick-track"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
           style={
             Object {
-              "width": 0,
+              "WebkitTransform": "translate3d(0px, 0px, 0px)",
+              "WebkitTransition": "",
+              "msTransform": "translateX(0px)",
+              "opacity": 1,
+              "transform": "translate3d(0px, 0px, 0px)",
+              "transition": "",
             }
           }
-          tabIndex="-1"
         >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/ca7ba54020e906d0270bcb137e63d339.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={-1}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/ca7ba54020e906d0270bcb137e63d339.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={false}
-          className="slick-slide slick-active slick-current"
-          data-index={0}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/crop/317x212/vr.images.sp/033e39324e5a9c74c9c3d693db633b0d.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={false}
+            className="slick-slide slick-active slick-current"
+            data-index={0}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/crop/317x212/vr.images.sp/033e39324e5a9c74c9c3d693db633b0d.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={1}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/crop/317x212/vr.images.sp/c36a9030d7e17a29e34b97fffbb3450b.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={1}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/crop/317x212/vr.images.sp/c36a9030d7e17a29e34b97fffbb3450b.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={2}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/9313a2aa4ef4d129dc8a673f56de74e8.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={2}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/9313a2aa4ef4d129dc8a673f56de74e8.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={3}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/5a5e8af7e823898ff50a2c931da230e3.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={3}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/5a5e8af7e823898ff50a2c931da230e3.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={4}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/88ae4f3e04597a162649805bf7eee2d5.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={4}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/88ae4f3e04597a162649805bf7eee2d5.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={5}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/ae4033b2c6bb69339077b871c5dee12d.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={5}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/ae4033b2c6bb69339077b871c5dee12d.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={6}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/b4df63691f0a840e184f36b70e5aabbb.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={6}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/b4df63691f0a840e184f36b70e5aabbb.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={7}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/2f562fe1528bd6902e5060d85d5e0e00.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={7}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/2f562fe1528bd6902e5060d85d5e0e00.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={8}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/d53b0b575cc6641254f856b22ee7f436.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={8}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/d53b0b575cc6641254f856b22ee7f436.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={9}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/d26a61b311df98893356906ba4cf23d0.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={9}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/d26a61b311df98893356906ba4cf23d0.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={10}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/b3dabb2f5586e22a1bb037fef4779ac1.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={10}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/b3dabb2f5586e22a1bb037fef4779ac1.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={11}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/2ab5bc137f85303e23a16bc68edf2d52.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={11}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/2ab5bc137f85303e23a16bc68edf2d52.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={12}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/e1319051879da3a12b8dac8abcf1e2bf.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={12}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/e1319051879da3a12b8dac8abcf1e2bf.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={13}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/00aa80cf1beaa17ece13e2bbfbc514b3.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={13}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/00aa80cf1beaa17ece13e2bbfbc514b3.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={14}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/5b66baa3ca7ea61caa305be0c6563409.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={14}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/5b66baa3ca7ea61caa305be0c6563409.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={15}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/4c7bddd8b4b3fe823e15d11555c4d17a.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={15}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/4c7bddd8b4b3fe823e15d11555c4d17a.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={16}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/66ab057b9b72859328962a8e9ce5c6a5.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={16}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/66ab057b9b72859328962a8e9ce5c6a5.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={17}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/a2915744185e85a96f22dd3f9691cde9.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={17}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/a2915744185e85a96f22dd3f9691cde9.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide"
-          data-index={18}
-          onClick={[Function]}
-          style={
-            Object {
-              "outline": "none",
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/ca7ba54020e906d0270bcb137e63d339.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide"
+            data-index={18}
+            onClick={[Function]}
+            style={
+              Object {
+                "outline": "none",
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/ca7ba54020e906d0270bcb137e63d339.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={19}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/crop/317x212/vr.images.sp/033e39324e5a9c74c9c3d693db633b0d.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={19}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/crop/317x212/vr.images.sp/033e39324e5a9c74c9c3d693db633b0d.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={20}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/crop/317x212/vr.images.sp/c36a9030d7e17a29e34b97fffbb3450b.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={20}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/crop/317x212/vr.images.sp/c36a9030d7e17a29e34b97fffbb3450b.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={21}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/9313a2aa4ef4d129dc8a673f56de74e8.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={21}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/9313a2aa4ef4d129dc8a673f56de74e8.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={22}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/5a5e8af7e823898ff50a2c931da230e3.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={22}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/5a5e8af7e823898ff50a2c931da230e3.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={23}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/88ae4f3e04597a162649805bf7eee2d5.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={23}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/88ae4f3e04597a162649805bf7eee2d5.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={24}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/ae4033b2c6bb69339077b871c5dee12d.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={24}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/ae4033b2c6bb69339077b871c5dee12d.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={25}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/b4df63691f0a840e184f36b70e5aabbb.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={25}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/b4df63691f0a840e184f36b70e5aabbb.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={26}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/2f562fe1528bd6902e5060d85d5e0e00.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={26}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/2f562fe1528bd6902e5060d85d5e0e00.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={27}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/d53b0b575cc6641254f856b22ee7f436.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={27}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/d53b0b575cc6641254f856b22ee7f436.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={28}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/d26a61b311df98893356906ba4cf23d0.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={28}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/d26a61b311df98893356906ba4cf23d0.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={29}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/b3dabb2f5586e22a1bb037fef4779ac1.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={29}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/b3dabb2f5586e22a1bb037fef4779ac1.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={30}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/2ab5bc137f85303e23a16bc68edf2d52.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={30}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/2ab5bc137f85303e23a16bc68edf2d52.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={31}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/e1319051879da3a12b8dac8abcf1e2bf.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={31}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/e1319051879da3a12b8dac8abcf1e2bf.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={32}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/00aa80cf1beaa17ece13e2bbfbc514b3.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={32}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/00aa80cf1beaa17ece13e2bbfbc514b3.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={33}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/5b66baa3ca7ea61caa305be0c6563409.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={33}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/5b66baa3ca7ea61caa305be0c6563409.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={34}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/4c7bddd8b4b3fe823e15d11555c4d17a.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={34}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/4c7bddd8b4b3fe823e15d11555c4d17a.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={35}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/66ab057b9b72859328962a8e9ce5c6a5.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={35}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/66ab057b9b72859328962a8e9ce5c6a5.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={36}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/a2915744185e85a96f22dd3f9691cde9.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={36}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/a2915744185e85a96f22dd3f9691cde9.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
-        </div>
-        <div
-          aria-hidden={true}
-          className="slick-slide slick-cloned"
-          data-index={37}
-          onClick={[Function]}
-          style={
-            Object {
-              "width": 0,
-            }
-          }
-          tabIndex="-1"
-        >
-          <div>
-            <img
-              className="ui fluid image"
-              src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/ca7ba54020e906d0270bcb137e63d339.jpg"
-              style={
-                Object {
-                  "display": "inline-block",
-                  "width": "100%",
-                }
+          <div
+            aria-hidden={true}
+            className="slick-slide slick-cloned"
+            data-index={37}
+            onClick={[Function]}
+            style={
+              Object {
+                "width": 0,
               }
-              tabIndex={-1}
-            />
+            }
+            tabIndex="-1"
+          >
+            <div>
+              <img
+                className="ui fluid image"
+                src="https://resizedimgs.vivareal.com/{action}/{width}x{height}/vr.images.sp/ca7ba54020e906d0270bcb137e63d339.jpg"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "width": "100%",
+                  }
+                }
+                tabIndex={-1}
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      className="slick-arrow slick-next sc-bxivhb fRImDb"
-      data-role="none"
-      onClick={[Function]}
-      style={
-        Object {
-          "display": "block",
+      <div
+        className="slick-arrow slick-next sc-bxivhb fRImDb"
+        data-role="none"
+        onClick={[Function]}
+        style={
+          Object {
+            "display": "block",
+          }
         }
-      }
-    >
-       X
+      >
+         X
+      </div>
     </div>
-  </div>
-  <div
-    className="content"
-  >
     <div
-      className="header"
-      style={
-        Object {
-          "fontSize": "1.12em",
+      className="content"
+    >
+      <div
+        className="header"
+        style={
+          Object {
+            "fontSize": "1.12em",
+          }
         }
-      }
-    >
-      Conjunto Comercial Duplex (Exclusividade)
-    </div>
-    <div
-      className="meta"
-    >
-      <span>
-        OFFICE
-      </span>
-    </div>
-    <div
-      className="sc-htpNat drBHcL"
-    >
-      <span>
-        Avenida Senador Pinheiro Machado
-      </span>
-      <div>
-        Marapé
-         - 
-        Santos
+      >
+        Conjunto Comercial Duplex (Exclusividade)
+      </div>
+      <div
+        className="meta"
+      >
+        <span>
+          OFFICE
+        </span>
+      </div>
+      <div
+        className="sc-htpNat drBHcL"
+      >
+        <span>
+          Avenida Senador Pinheiro Machado
+        </span>
+        <div>
+          Marapé
+           - 
+          Santos
+        </div>
+      </div>
+      <div
+        className="sc-bwzfXH ejhCzb"
+      >
+        <div>
+          <i
+            aria-hidden="true"
+            className="th small icon"
+            onClick={[Function]}
+          />
+          93
+           m2
+        </div>
+        <div>
+          <i
+            aria-hidden="true"
+            className="bed small icon"
+            onClick={[Function]}
+          />
+          0
+           dormitórios
+        </div>
+      </div>
+      <div
+        className="sc-bdVaJa dQeyfv"
+      >
+        R$265,000.00
       </div>
     </div>
     <div
-      className="sc-bwzfXH ejhCzb"
+      className="extra content"
     >
-      <div>
-        <i
-          aria-hidden="true"
-          className="th small icon"
-          onClick={[Function]}
-        />
-        93
-         m2
-      </div>
-      <div>
-        <i
-          aria-hidden="true"
-          className="bed small icon"
-          onClick={[Function]}
-        />
-        0
-         dormitórios
-      </div>
+      <button
+        className="ui fluid positive button"
+        data-testid="request-proposal"
+        onClick={[Function]}
+      >
+        Solicitar Parceria
+      </button>
     </div>
-    <div
-      className="sc-bdVaJa dQeyfv"
-    >
-      R$265,000.00
-    </div>
-  </div>
-  <div
-    className="extra content"
-  >
-    <button
-      className="ui fluid positive button"
-      data-testid="request-proposal"
-      onClick={[Function]}
-    >
-      Solicitar Parceria
-    </button>
   </div>
 </div>
 `;
 
 exports[`PropertyCard renders correctly with loading 1`] = `
 <div
-  className="ui card"
-  onClick={[Function]}
   style={
     Object {
-      "minHeight": 450,
-      "width": 330,
+      "margin": 5,
+      "padding": 7,
     }
   }
 >
   <div
-    className="ui placeholder"
+    className="ui card"
+    onClick={[Function]}
     style={
       Object {
-        "height": 220,
+        "minHeight": 450,
         "width": 330,
       }
     }
   >
     <div
-      className="square image"
-    />
-  </div>
-  <div
-    className="content"
-  >
-    <div
       className="ui placeholder"
+      style={
+        Object {
+          "height": 220,
+          "width": 330,
+        }
+      }
     >
       <div
-        className="header"
-      >
-        <div
-          className="line long"
-        />
-      </div>
-      <div>
-        <div
-          className="line short"
-        />
-      </div>
+        className="square image"
+      />
+    </div>
+    <div
+      className="content"
+    >
       <div
-        className="sc-htpNat drBHcL"
+        className="ui placeholder"
       >
         <div
-          className="line medium"
-        />
+          className="header"
+        >
+          <div
+            className="line long"
+          />
+        </div>
+        <div>
+          <div
+            className="line short"
+          />
+        </div>
         <div
-          className="line long"
-        />
-      </div>
-      <div
-        className="paragraph"
-      >
+          className="sc-htpNat drBHcL"
+        >
+          <div
+            className="line medium"
+          />
+          <div
+            className="line long"
+          />
+        </div>
         <div
-          className="line"
-          lenght="short"
-        />
+          className="paragraph"
+        >
+          <div
+            className="line"
+            lenght="short"
+          />
+        </div>
       </div>
     </div>
-  </div>
-  <div
-    className="extra content"
-  >
-    <button
-      className="ui fluid positive button"
-      data-testid="request-proposal"
-      onClick={[Function]}
+    <div
+      className="extra content"
     >
-      Solicitar Parceria
-    </button>
+      <button
+        className="ui fluid positive button"
+        data-testid="request-proposal"
+        onClick={[Function]}
+      >
+        Solicitar Parceria
+      </button>
+    </div>
   </div>
 </div>
 `;

@@ -48,10 +48,7 @@ export const Listing = {
     '__typename': 'Listing'
 }
 
-const isMobile = () => window.innerWidth <= 755
-
 function Index() {
-    const contextRef = createRef()
     // const {filters, setFilters} = useContext(FiltersContext);
     return (
         <div>
@@ -59,7 +56,10 @@ function Index() {
             {/*<pre>{JSON.stringify(filters)}</pre>*/}
             {/*<Button onClick={(e) => setFilters({leke: 123})}>eeee</Button>*/}
             {/*<div style={{display: 'flex', flexWrap: 'wrap', padding: 20}}>*/}
-            <Card.Group centered={isMobile()}>
+            <Card.Group centered>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
+                <PropertyCard item={Listing} carousel/>
                 <PropertyCard item={Listing} carousel/>
                 <PropertyCard item={Listing} carousel/>
                 <PropertyCard item={Listing} carousel/>

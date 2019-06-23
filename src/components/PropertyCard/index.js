@@ -55,7 +55,7 @@ const PropertyCard = (props) => {
     )
 
     return (
-        <React.Fragment>
+        <div style={{padding: 7, margin: 5}}>
             <Card style={{width: 330, minHeight: 450}}>
                 {props.loading ?
                     (
@@ -95,7 +95,7 @@ const PropertyCard = (props) => {
                     <Button data-testid="request-proposal" fluid positive onClick={onClick}>Solicitar Parceria</Button>
                 </Card.Content>
             </Card>
-        </React.Fragment>
+        </div>
     )
 };
 

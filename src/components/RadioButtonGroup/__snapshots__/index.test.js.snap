@@ -2,7 +2,7 @@
 
 exports[`RadioButtonGroup renders correctly 1`] = `
 <div
-  className="ui secondary sc-bwzfXH dyjRzU menu"
+  className="ui secondary sc-bwzfXH dYDAIa menu"
 >
   <a
     className="item sc-bdVaJa vEBRA"

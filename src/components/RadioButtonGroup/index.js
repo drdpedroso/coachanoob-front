@@ -6,15 +6,13 @@ import styled from "styled-components";
 
 
 const MenuItem = styled(Menu.Item)`
-    border: 0.5px solid black !important;
+    border: 0.5px solid ${props => props.white ? 'white' : 'black'} !important;
     font-size: 1.23em;
-    color: ${props => {
-        return props.white ? 'white !important' : ''
-    }}
+    color: ${props => props.white ? 'white !important' : ''}
 `
 
 const MenuContainer = styled(Menu)`
-    justify-content: center
+    justify-content: center;
     width: 100%;
 `
 
@@ -34,12 +32,13 @@ const RadioButtonGroup = (props) => {
                 data-testid={item.name}
                 key={item.value}
                 onClick={handleItemClick}
+                white={props.white}
             >{item.name}</MenuItem>
         )
     };
 
     return (
-        <MenuContainer secondary white={props.white}>
+        <MenuContainer secondary>
             {
                 props.items.map(mountMenuItem)
             }
@@ -58,7 +57,8 @@ RadioButtonGroup.propTypes = {
 };
 
 RadioButtonGroup.defaultProps = {
-    onItemClick: () => {}
+    onItemClick: () => {
+    }
 }
 
 export default RadioButtonGroup

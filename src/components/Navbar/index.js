@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types'
-import React, {useState} from 'react'
+import React, {useState, useContext} from 'react'
 import {Button, Container, Icon, Menu, Responsive, Sidebar, Visibility,} from 'semantic-ui-react'
 import {DesktopSegment, MobileSegment} from './style'
 import {Link, withRouter} from "react-router-dom";
 import StickyButton from "../StickyButton";
+import {FiltersContext} from "../../state"
 
 const getWidth = () => window.innerWidth
 
@@ -12,10 +13,16 @@ const isActive = (currentLocation) => (path) => {
 }
 
 const DesktopContainer = ({children, location}) => {
-    const [fixed, setFixed] = useState(false)
-
-    const hideFixedMenu = () => setFixed(false)
-    const showFixedMenu = () => setFixed(true)
+    // const [fixed, setFixed] = useState(false)
+    const fixed = true
+    // const hideFixedMenu = () => {
+    //     debugger;
+    //     setFixed(false)
+    // }
+    // const showFixedMenu = () => {
+    //     debugger;
+    //     setFixed(true)
+    // }
 
     const isMenuActive = isActive(location.pathname)
 
@@ -23,8 +30,8 @@ const DesktopContainer = ({children, location}) => {
         <Responsive getWidth={getWidth} minWidth={Responsive.onlyTablet.minWidth}>
             <Visibility
                 once={false}
-                onBottomPassed={showFixedMenu}
-                onBottomPassedReverse={hideFixedMenu}
+                // onBottomPassed={showFixedMenu}
+                // onBottomPassedReverse={hideFixedMenu}
             >
                 <DesktopSegment
                     inverted
@@ -57,7 +64,6 @@ const DesktopContainer = ({children, location}) => {
                     </Menu>
                 </DesktopSegment>
             </Visibility>
-
             {children}
         </Responsive>
     )
@@ -69,7 +75,7 @@ DesktopContainer.propTypes = {
 
 const MobileContainer = ({children, location}) => {
     const [sidebarOpened, setSidebarOpened] = useState(false)
-
+    const {filters, setFilters} = useContext(FiltersContext);
     const handleSidebarHide = () => setSidebarOpened(false)
     const handleToggle = () => setSidebarOpened(true)
 
@@ -81,27 +87,37 @@ const MobileContainer = ({children, location}) => {
             getWidth={getWidth}
             maxWidth={Responsive.onlyMobile.maxWidth}
         >
-            <Sidebar
-                as={Menu}
-                animation='push'
-                inverted
-                onHide={handleSidebarHide}
-                vertical
-                visible={sidebarOpened}
+            <Visibility
+                once={false}
+                onBottomPassed={() => {
+                    setFilters({...filters, showButton: true})
+                }}
+                onBottomPassedReverse={() => {
+                    setFilters({...filters, showButton: false})
+                }}
             >
-                <Menu.Item as={Link} active={isMenuActive('/')}>
-                    Home
-                </Menu.Item>
-                <Menu.Item as={Link}>Pesquisar anúncios</Menu.Item>
-                <Menu.Item as={Link}>Meus anúncios</Menu.Item>
-                <Menu.Item as={Link}>Minhas Propostas</Menu.Item>
-                <Menu.Item as={Link}>Como Funciona?</Menu.Item>
-                <Menu.Item as={Link}>Sair</Menu.Item>
-            </Sidebar>
-
+                <Sidebar
+                    as={Menu}
+                    animation='push'
+                    inverted
+                    onHide={handleSidebarHide}
+                    vertical
+                    visible={sidebarOpened}
+                >
+                    <Menu.Item as={Link} active={isMenuActive('/')}>
+                        Home
+                    </Menu.Item>
+                    <Menu.Item as={Link}>Pesquisar anúncios</Menu.Item>
+                    <Menu.Item as={Link}>Meus anúncios</Menu.Item>
+                    <Menu.Item as={Link}>Minhas Propostas</Menu.Item>
+                    <Menu.Item as={Link}>Como Funciona?</Menu.Item>
+                    <Menu.Item as={Link}>Sair</Menu.Item>
+                </Sidebar>
+            </Visibility>
             <Sidebar.Pusher dimmed={sidebarOpened} style={{padding: 0}}>
                 <MobileSegment
                     inverted
+                    style={{marginBottom: 20}}
                     textAlign='center'
                     basic
                     vertical
@@ -125,8 +141,18 @@ MobileContainer.propTypes = {
 }
 
 const ResponsiveContainer = (props) => {
+    const {filters, setFilters} = useContext(FiltersContext);
+    const {open} = filters
+
     return (
         <div style={{height: '100vh'}}>
+            <Responsive as={'div'} maxWidth={768}>
+                {filters.showButton && <StickyButton data-testid="open-filters"
+                                                     onClick={() => setFilters({
+                                                         ...filters,
+                                                         open: !open
+                                                     })}>FILTROS</StickyButton>}
+            </Responsive>
             <DesktopContainer location={props.location}>{props.children}</DesktopContainer>
             <MobileContainer location={props.location}>{props.children}</MobileContainer>
         </div>
