@@ -4,7 +4,7 @@ exports[`FiltersForm renders correctly 1`] = `
 <div>
   <div>
     <div
-      className="sc-htpNat cRIZnI"
+      className="sc-htpNat bhSocN"
     >
       <button
         className="ui button"
@@ -18,7 +18,7 @@ exports[`FiltersForm renders correctly 1`] = `
   <div
     style={
       Object {
-        "position": "absolute",
+        "position": "fixed",
         "top": -1200,
         "width": "100%",
         "zIndex": 2,
@@ -26,10 +26,10 @@ exports[`FiltersForm renders correctly 1`] = `
     }
   >
     <div
-      className="sc-EHOje QskdA"
+      className="sc-EHOje jDiwiI"
     >
       <form
-        className="ui form sc-ifAKCX lgoHaP"
+        className="ui form sc-ifAKCX dNhsIx"
         onSubmit={[Function]}
       >
         <div
@@ -1209,41 +1209,45 @@ exports[`FiltersForm renders correctly 1`] = `
             Quartos
           </label>
           <div
-            className="ui secondary sc-bwzfXH dyjRzU menu"
-            white={true}
+            className="ui secondary sc-bwzfXH dYDAIa menu"
           >
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="1+"
               onClick={[Function]}
+              white={true}
             >
               1+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="2+"
               onClick={[Function]}
+              white={true}
             >
               2+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="3+"
               onClick={[Function]}
+              white={true}
             >
               3+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="4+"
               onClick={[Function]}
+              white={true}
             >
               4+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="5+"
               onClick={[Function]}
+              white={true}
             >
               5+
             </a>
@@ -1258,41 +1262,45 @@ exports[`FiltersForm renders correctly 1`] = `
             Suites
           </label>
           <div
-            className="ui secondary sc-bwzfXH dyjRzU menu"
-            white={true}
+            className="ui secondary sc-bwzfXH dYDAIa menu"
           >
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="1+"
               onClick={[Function]}
+              white={true}
             >
               1+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="2+"
               onClick={[Function]}
+              white={true}
             >
               2+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="3+"
               onClick={[Function]}
+              white={true}
             >
               3+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="4+"
               onClick={[Function]}
+              white={true}
             >
               4+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="5+"
               onClick={[Function]}
+              white={true}
             >
               5+
             </a>
@@ -1307,41 +1315,45 @@ exports[`FiltersForm renders correctly 1`] = `
             Banheiros
           </label>
           <div
-            className="ui secondary sc-bwzfXH dyjRzU menu"
-            white={true}
+            className="ui secondary sc-bwzfXH dYDAIa menu"
           >
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="1+"
               onClick={[Function]}
+              white={true}
             >
               1+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="2+"
               onClick={[Function]}
+              white={true}
             >
               2+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="3+"
               onClick={[Function]}
+              white={true}
             >
               3+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="4+"
               onClick={[Function]}
+              white={true}
             >
               4+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="5+"
               onClick={[Function]}
+              white={true}
             >
               5+
             </a>
@@ -1356,41 +1368,45 @@ exports[`FiltersForm renders correctly 1`] = `
             Vagas na Garagem
           </label>
           <div
-            className="ui secondary sc-bwzfXH dyjRzU menu"
-            white={true}
+            className="ui secondary sc-bwzfXH dYDAIa menu"
           >
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="1+"
               onClick={[Function]}
+              white={true}
             >
               1+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="2+"
               onClick={[Function]}
+              white={true}
             >
               2+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="3+"
               onClick={[Function]}
+              white={true}
             >
               3+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="4+"
               onClick={[Function]}
+              white={true}
             >
               4+
             </a>
             <a
-              className="item sc-bdVaJa vEBRA"
+              className="item sc-bdVaJa DllYe"
               data-testid="5+"
               onClick={[Function]}
+              white={true}
             >
               5+
             </a>

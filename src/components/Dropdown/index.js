@@ -6,6 +6,7 @@ const BaseDropdown = (props) => {
     return (
         <Dropdown
             {...props}
+            options={props.options}
             onChange={props.onChange}
         />
     )
@@ -13,7 +14,8 @@ const BaseDropdown = (props) => {
 
 BaseDropdown.propTypes = {
     onChange: PropTypes.func,
-    children: PropTypes.node
+    children: PropTypes.node,
+    options: PropTypes.array
 };
 
 export default BaseDropdown

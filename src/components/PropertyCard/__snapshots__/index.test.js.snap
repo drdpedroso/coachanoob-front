@@ -131,7 +131,7 @@ exports[`PropertyCard renders correctly 1`] = `
       <div
         className="sc-bdVaJa dQeyfv"
       >
-        R$265,000.00
+        R$ 265,000.00
       </div>
     </div>
     <div
@@ -1319,7 +1319,7 @@ exports[`PropertyCard renders correctly with carousel 1`] = `
       <div
         className="sc-bdVaJa dQeyfv"
       >
-        R$265,000.00
+        R$ 265,000.00
       </div>
     </div>
     <div

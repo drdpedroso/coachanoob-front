@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types'
-import React, {useState, useContext} from 'react'
+import React, {useContext, useState} from 'react'
 import {Button, Container, Icon, Menu, Responsive, Sidebar, Visibility,} from 'semantic-ui-react'
 import {DesktopSegment, MobileSegment} from './style'
 import {Link, withRouter} from "react-router-dom";
-import StickyButton from "../StickyButton";
 import {FiltersContext} from "../../state"
 
 const getWidth = () => window.innerWidth
@@ -13,16 +12,7 @@ const isActive = (currentLocation) => (path) => {
 }
 
 const DesktopContainer = ({children, location}) => {
-    // const [fixed, setFixed] = useState(false)
     const fixed = true
-    // const hideFixedMenu = () => {
-    //     debugger;
-    //     setFixed(false)
-    // }
-    // const showFixedMenu = () => {
-    //     debugger;
-    //     setFixed(true)
-    // }
 
     const isMenuActive = isActive(location.pathname)
 
@@ -30,8 +20,6 @@ const DesktopContainer = ({children, location}) => {
         <Responsive getWidth={getWidth} minWidth={Responsive.onlyTablet.minWidth}>
             <Visibility
                 once={false}
-                // onBottomPassed={showFixedMenu}
-                // onBottomPassedReverse={hideFixedMenu}
             >
                 <DesktopSegment
                     inverted
@@ -40,7 +28,7 @@ const DesktopContainer = ({children, location}) => {
                 >
                     <Menu
                         fixed={fixed ? 'top' : null}
-                        inverted={!fixed}
+                        inverted={fixed}
                         pointing={!fixed}
                         secondary={!fixed}
                         size='large'
@@ -78,6 +66,14 @@ const MobileContainer = ({children, location}) => {
     const {filters, setFilters} = useContext(FiltersContext);
     const handleSidebarHide = () => setSidebarOpened(false)
     const handleToggle = () => setSidebarOpened(true)
+    const {open} = filters
+
+    const openFilters = () => {
+        setFilters({
+            ...filters,
+            open: !open
+        })
+    }
 
     const isMenuActive = isActive(location.pathname)
 
@@ -112,23 +108,26 @@ const MobileContainer = ({children, location}) => {
                     <Menu.Item as={Link}>Minhas Propostas</Menu.Item>
                     <Menu.Item as={Link}>Como Funciona?</Menu.Item>
                     <Menu.Item as={Link}>Sair</Menu.Item>
+
                 </Sidebar>
             </Visibility>
             <Sidebar.Pusher dimmed={sidebarOpened} style={{padding: 0}}>
                 <MobileSegment
                     inverted
-                    style={{marginBottom: 20}}
                     textAlign='center'
                     basic
                     vertical
                 >
-                    <Container style={{margin: 'auto'}}>
+                    <div style={{margin: 'auto', width: '95%'}}>
                         <Menu inverted pointing secondary size='large'>
                             <Menu.Item onClick={handleToggle}>
                                 <Icon name='sidebar'/>
                             </Menu.Item>
+                            <Menu.Item onClick={openFilters} position='right'>
+                                <Icon name='filter'/>
+                            </Menu.Item>
                         </Menu>
-                    </Container>
+                    </div>
                 </MobileSegment>
                 {children}
             </Sidebar.Pusher>
@@ -141,18 +140,8 @@ MobileContainer.propTypes = {
 }
 
 const ResponsiveContainer = (props) => {
-    const {filters, setFilters} = useContext(FiltersContext);
-    const {open} = filters
-
     return (
         <div style={{height: '100vh'}}>
-            <Responsive as={'div'} maxWidth={768}>
-                {filters.showButton && <StickyButton data-testid="open-filters"
-                                                     onClick={() => setFilters({
-                                                         ...filters,
-                                                         open: !open
-                                                     })}>FILTROS</StickyButton>}
-            </Responsive>
             <DesktopContainer location={props.location}>{props.children}</DesktopContainer>
             <MobileContainer location={props.location}>{props.children}</MobileContainer>
         </div>

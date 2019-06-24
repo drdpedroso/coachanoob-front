@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-import {Button} from 'semantic-ui-react'
 import Slider from "react-slick";
 import PropertyCard from "../PropertyCard";
 import {ArrowContainer} from "../PropertyCard/style";

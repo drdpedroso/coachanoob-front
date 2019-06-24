@@ -7,12 +7,11 @@ import BaseDropdown from "../Dropdown"
 import BaseInput from "../Input"
 import RadioButtonGroup from "../RadioButtonGroup"
 import {FiltersContainer, FiltersInnerContainer, FormContainer, Label} from './styles'
-import StickyButton from "../StickyButton";
 import {animated, useSpring} from 'react-spring'
 import {FiltersContext} from "../../state"
 
 const MOBILE_TOP_VALUE = 56
-const DESKTOP_TOP_VALUE = 120
+const DESKTOP_TOP_VALUE = 95
 const isMobile = () => window.innerWidth <= 755
 
 const getPosition = () => {
@@ -39,6 +38,7 @@ const FiltersForm = (props) => {
             [key]: value
         })
     }
+
     const onSubmit = (): function => {
         return typeof props.onSubmit === 'function' ? props.onSubmit(form) : null
     }
@@ -79,16 +79,13 @@ const FiltersForm = (props) => {
     ]
     return (
         <div>
-            <Responsive as={'div'} maxWidth={768}>
-                {/*<StickyButton onClick={openFilters} data-testid="open-filters">Abrir</StickyButton>*/}
-            </Responsive>
             <Responsive as={'div'} minWidth={769}>
                 <FiltersContainer>
                     <Button onClick={openFilters} data-testid="open-filters">Abrir</Button>
                 </FiltersContainer>
             </Responsive>
 
-            <animated.div style={{...animationProps, position: 'absolute', width: '100%', zIndex: 2}}>
+            <animated.div style={{...animationProps, position: 'fixed', width: '100%', zIndex: 2}}>
                 <FiltersInnerContainer>
                     <FormContainer>
                         <Form.Field>

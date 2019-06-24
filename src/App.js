@@ -51,12 +51,13 @@ export const Listing = {
 function Index() {
     // const {filters, setFilters} = useContext(FiltersContext);
     return (
-        <div>
+        // TODO remove inline style here
+        <div style={{marginTop: 85}}>
             <FiltersForm/>
             {/*<pre>{JSON.stringify(filters)}</pre>*/}
             {/*<Button onClick={(e) => setFilters({leke: 123})}>eeee</Button>*/}
             {/*<div style={{display: 'flex', flexWrap: 'wrap', padding: 20}}>*/}
-            <Card.Group centered>
+            <Card.Group centered doubling>
                 <PropertyCard item={Listing} carousel/>
                 <PropertyCard item={Listing} carousel/>
                 <PropertyCard item={Listing} carousel/>
