@@ -8,7 +8,7 @@ import Slider from "react-slick";
 import {ArrowContainer, AddressRow, PriceText, InformationRow} from "./style";
 import {formatToCurrency} from "../../utils";
 
-const PropertyCard = (props) => {
+const ProfileCard = (props) => {
     const settings = {
         dots: false,
         infinite: true,
@@ -31,7 +31,7 @@ const PropertyCard = (props) => {
     };
 
     const getImages = () => {
-        return props.isCarousel ? mountCarousel() : <Image src={props.item.photos[0]} fluid/>
+        return props.isCarousel ? mountCarousel() : <Image src={props.item.photo} wrapped ui={false}/>
     };
 
     const onClick = () => {
@@ -56,38 +56,38 @@ const PropertyCard = (props) => {
 
     return (
         <div style={{padding: 7, margin: 5}}>
-            <Card style={{width: 330, minHeight: 450}}>
+            <Card style={{minHeight: 400}}>
                 {props.loading ?
                     (
                         <Placeholder style={{width: 330, height: 220}}>
                             <Placeholder.Image square/>
                         </Placeholder>
                     ) :
-                    <Slider {...settings}>{getImages()}</Slider>
+                    <Image src={props.item.photo} wrapped ui={false}/>
                 }
                 <Card.Content>
                     {props.loading ? loadingState :
                         <React.Fragment>
-                            <Card.Header style={{fontSize: '1.12em'}}>{props.item.title}</Card.Header>
+                            <Card.Header style={{fontSize: '1.12em'}}>{props.item.nick}</Card.Header>
                             <Card.Meta>
-                                <span>{props.item.property.type}</span>
+                                {/*<span>{props.item.property.type}</span>*/}
                             </Card.Meta>
                             <AddressRow>
-                                <span>{props.item.property.address.street}</span>
-                                <div>{props.item.property.address.neighborhood} - {props.item.property.address.city}</div>
+                                {/*<span>{props.item.property.address.street}</span>*/}
+                                {/*<div>{props.item.property.address.neighborhood} - {props.item.property.address.city}</div>*/}
                             </AddressRow>
                             <InformationRow>
-                                <div>
-                                    <Icon size='small' name="th"/>
-                                    {props.item.property.area} m2
-                                </div>
-                                <div>
-                                    <Icon size='small' name="bed"/>
-                                    {props.item.property.bedrooms} dormitórios
-                                </div>
+                                {/*<div>*/}
+                                {/*    <Icon size='small' name="th"/>*/}
+                                {/*    {props.item.property.area} m2*/}
+                                {/*</div>*/}
+                                {/*<div>*/}
+                                {/*    <Icon size='small' name="bed"/>*/}
+                                {/*    {props.item.property.bedrooms} dormitórios*/}
+                                {/*</div>*/}
                             </InformationRow>
                             <PriceText>
-                                {formatToCurrency(props.item.salePrice || 0)}
+                                {formatToCurrency(props.item.price || 0)}
                             </PriceText>
                         </React.Fragment>}
                 </Card.Content>
@@ -99,11 +99,11 @@ const PropertyCard = (props) => {
     )
 };
 
-PropertyCard.propTypes = {
+ProfileCard.propTypes = {
     onClick: PropTypes.func,
     children: PropTypes.node,
     arrows: PropTypes.bool,
     isCarousel: PropTypes.bool
 };
 
-export default PropertyCard
+export default ProfileCard

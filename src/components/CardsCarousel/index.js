@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import Slider from "react-slick";
-import PropertyCard from "../PropertyCard";
-import {ArrowContainer} from "../PropertyCard/style";
+import ProfileCard from "../ProfileCard";
+import {ArrowContainer} from "../ProfileCard/style";
 
 const isMobile = () => window.innerWidth <= 755
 
@@ -22,16 +22,16 @@ const CardCarousel = (props) => {
     return (
         <Slider {...settings}>
             <div>
-                <PropertyCard loading/>
+                <ProfileCard loading/>
             </div>
             <div>
-                <PropertyCard loading/>
+                <ProfileCard loading/>
             </div>
             <div>
-                <PropertyCard loading/>
+                <ProfileCard loading/>
             </div>
             <div>
-                <PropertyCard loading/>
+                <ProfileCard loading/>
             </div>
         </Slider>
     )

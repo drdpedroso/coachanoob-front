@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PropertyCard renders correctly 1`] = `
+exports[`ProfileCard renders correctly 1`] = `
 <div
   style={
     Object {
@@ -149,7 +149,7 @@ exports[`PropertyCard renders correctly 1`] = `
 </div>
 `;
 
-exports[`PropertyCard renders correctly with carousel 1`] = `
+exports[`ProfileCard renders correctly with carousel 1`] = `
 <div
   style={
     Object {
@@ -1337,7 +1337,7 @@ exports[`PropertyCard renders correctly with carousel 1`] = `
 </div>
 `;
 
-exports[`PropertyCard renders correctly with loading 1`] = `
+exports[`ProfileCard renders correctly with loading 1`] = `
 <div
   style={
     Object {
